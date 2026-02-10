@@ -16,7 +16,8 @@ impl Plugin for WindowConfigPlugin {
                 ..Default::default()
             }),
             ..Default::default()
-        }));
+        }))
+        .insert_resource(ClearColor(Color::srgb(1.0, 1.0, 1.0)));
     }
 }
 

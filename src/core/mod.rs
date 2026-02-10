@@ -1,3 +1,5 @@
 mod config;
-pub mod data;
-pub use config::{WindowConfigPlugin, setup_camera};
+mod data;
+
+pub use config::*;
+pub use data::*;
