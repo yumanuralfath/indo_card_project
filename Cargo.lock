@@ -534,15 +534,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bevy_cards"
-version = "0.18.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a348502b381ca198bde06634708127f28be55016f6357f7803d68ceb7739d7a"
-dependencies = [
- "bevy",
-]
-
-[[package]]
 name = "bevy_color"
 version = "0.18.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2795,7 +2786,6 @@ name = "indo_card_project"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "bevy_cards",
 ]
 
 [[package]]
